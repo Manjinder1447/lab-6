@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.json
+*.png
+*.jpg
+*.jpeg
+.DS_Store
+.env
+venv/
+env/
+dist/
+build/
+
+# AWS
+.serverless/
+*.pem
+*.key
+aws_credentials.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,22 @@
+service: resiliency-lab-api
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+  iam:
+    role: arn:aws:iam::808765726754:role/LabRole  # Use AWS Academy's existing role
+
+functions:
+  api:
+    handler: app.lambda_handler
+    events:
+      - http:
+          path: healthy
+          method: get
+      - http:
+          path: unreliable
+          method: get
+      - http:
+          path: slow
+          method: get
