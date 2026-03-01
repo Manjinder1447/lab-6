@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-03-01T05:13:45.798065",
+  "circuit_breaker_results": [
+    {
+      "attempt": 1,
+      "success": false,
+      "time": 0.34988999366760254,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 2,
+      "success": true,
+      "time": 0.08579063415527344,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 3,
+      "success": false,
+      "time": 0.07262182235717773,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 4,
+      "success": true,
+      "time": 0.0822603702545166,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 5,
+      "success": true,
+      "time": 0.06959319114685059,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 6,
+      "success": true,
+      "time": 0.058403730392456055,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 7,
+      "success": true,
+      "time": 0.07950830459594727,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 8,
+      "success": true,
+      "time": 0.08340740203857422,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 9,
+      "success": false,
+      "time": 0.07340478897094727,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 10,
+      "success": false,
+      "time": 0.0596160888671875,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 11,
+      "success": true,
+      "time": 0.056798696517944336,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 12,
+      "success": false,
+      "time": 0.06646347045898438,
+      "circuit_state": "CLOSED"
+    },
+    {
+      "attempt": 13,
+      "success": false,
+      "time": 0.05599403381347656,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 14,
+      "success": false,
+      "time": 7.05718994140625e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 15,
+      "success": false,
+      "time": 8.225440979003906e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 16,
+      "success": false,
+      "time": 8.7738037109375e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 17,
+      "success": false,
+      "time": 8.130073547363281e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 18,
+      "success": false,
+      "time": 7.557868957519531e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 19,
+      "success": false,
+      "time": 9.703636169433594e-05,
+      "circuit_state": "OPEN"
+    },
+    {
+      "attempt": 20,
+      "success": false,
+      "time": 7.700920104980469e-05,
+      "circuit_state": "OPEN"
+    }
+  ],
+  "retry_results": [
+    {
+      "attempt": 1,
+      "success": true,
+      "total_time": 5.061947584152222,
+      "api_delay": 5
+    },
+    {
+      "attempt": 2,
+      "success": true,
+      "total_time": 2.0573177337646484,
+      "api_delay": 2
+    },
+    {
+      "attempt": 3,
+      "success": true,
+      "total_time": 2.063319683074951,
+      "api_delay": 2
+    },
+    {
+      "attempt": 4,
+      "success": true,
+      "total_time": 2.0751025676727295,
+      "api_delay": 2
+    },
+    {
+      "attempt": 5,
+      "success": true,
+      "total_time": 9.308115720748901,
+      "api_delay": 3
+    }
+  ]
+}
